@@ -41,7 +41,7 @@ Designed for real-world IoT applications such as MQTT devices, WebServer configu
 
 ```cpp
 #include <AdvancedButton.h>
-
+```
 ---
 ## 🔌 Hardware Wiring
 
@@ -82,5 +82,5 @@ void loop() {
   if (e == AdvancedButton::Event::Long1)
     Serial.println("Held 2 seconds");
 }
-
+```
 ---
